@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: harbor.carl-workshops.carlstenberg.com/demo/user-demo
+  repository: harbor.carl-workshops.carlstenberg.com/app-dev-25/user-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"

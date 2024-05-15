@@ -5,7 +5,7 @@ const os = require('os');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.send({
-    hostname: os.hostname(),
+    hostname: os.hostname() + "CHANGE WOHO!",
     version: process.env.npm_package_version,
   });
 });
